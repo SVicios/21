@@ -25,9 +25,9 @@ body {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   color: white;
   position: absolute;
-  margin-bottom: 25%;
+  margin-bottom: 20%;
   z-index: 1;
-  font-weight: bold;
+  font-weight: 900;
   letter-spacing: 4px;
 }
 @media only screen and (max-width: 600px) {
@@ -39,7 +39,6 @@ body {
   }
 
 }
-
 .titulo {
   margin-bottom: 180px;
   font-family: "Arial Narrow", Arial, sans-serif;
