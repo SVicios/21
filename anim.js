@@ -33,6 +33,37 @@ var lyricsData = [
   { text: "Love.", time: 140 },
 ];
 
+var lyricsData2 = [
+  { text: "En ese momento", time: 15 },
+  { text: "El susurro de los pájaros", time: 18 },
+  { text: "Antes de que el sol llorara en soledad", time: 27 },
+  { text: "Caía desde el cielo", time: 32 },
+  { text: "Como gotas de agua", time: 33 },
+  { text: "¿Dónde estoy ahora? No sé por qué", time: 41 },
+  { text: "Hay unas lindas mariposas en mis manos", time: 47 },
+  { text: "Demasiada luz para el atardecer", time: 54 },
+  { text: "En el ambiente de las flores con amor", time: 59 },
+  { text: "Ese recuerdo", time: 67 },
+  { text: "Fue tan fuerte, me dejó alucinado", time: 72 },
+  { text: "El silencio me dejó ver lo qué fue todo", time: 78 },
+  { text: "Solo quiero vivir en las nubes", time: 83 },
+  { text: "¿Dónde estoy ahora? No sé por qué", time: 91 },
+  { text: "Hay unas lindas mariposas en mis manos", time: 97 },
+  { text: "Demasiada luz para el atardecer", time: 104 },
+  { text: "En el ambiente de las flores con amor", time: 108 },
+  { text: "Ese recuerdo", time: 144 },
+  { text: "El susurro de los pájaros", time: 148 },
+  { text: "Antes de que el sol llorara en soledad", time: 153 },
+  { text: "Caía desde el cielo", time: 158 },
+  { text: "Como gotas de agua", time: 164 },
+  { text: "¿Dónde estoy ahora? No sé por qué", time: 169 },
+  { text: "Hay unas lindas mariposas en mis manos", time: 176 },
+  { text: "Demasiada luz para el atardecer", time: 183 },
+  { text: "En el ambiente de las flores con amor", time: 188 },
+  { text: "Amor.", time: 140 },
+];
+
+
 // Animar las letras
 function updateLyrics() {
   var time = Math.floor(audio.currentTime);
