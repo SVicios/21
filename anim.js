@@ -1,9 +1,9 @@
 // Sincronizar las letras con la canción
 var audio = document.querySelector("audio");
 var lyrics = document.querySelector("#lyrics");
-
+//var lyrics = document.querySelector("#lyrics2");
 // Array de objetos que contiene cada línea y su tiempo de aparición en segundos
-var lyricsData = [
+var lyricsData2 = [
   { text: "At the time", time: 15 },
   { text: "The whisper of birds", time: 18 },
   { text: "Lonely before the sun cried", time: 27 },
@@ -33,7 +33,7 @@ var lyricsData = [
   { text: "Love.", time: 140 },
 ];
 
-var lyricsData2 = [
+var lyricsData = [
   { text: "En ese momento", time: 15 },
   { text: "El susurro de los pájaros", time: 18 },
   { text: "Antes de que el sol llorara en soledad", time: 27 },
